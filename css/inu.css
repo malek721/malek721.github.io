@@ -1,0 +1,60 @@
+html {
+  background-color: lightgoldenrodyellow;
+  font-family: HelveticaNeue, Helvetica, Arial, Verdana, sans-serif;
+}
+
+header {
+  color: white;
+  margin-top: -10px;
+  background-color: rgba(12, 106, 128, 0.99);
+  margin-bottom: -70px;
+}
+h1 {
+  text-align: center;
+}
+.logo {
+  background-color: white;
+  height: 65px;
+  margin-top: 10px;
+  margin-left: -920px;
+}
+.lnk {
+  color: black;
+  text-align: left;
+  margin-top: -10px;
+  font-size: large;
+}
+.unvideo {
+  margin-top: 10px;
+  margin-left: 52%;
+  margin-left: 670px;
+}
+.loc {
+  margin-bottom: -220px;
+}
+.baslik {
+  text-align: center;
+}
+.metin {
+  width: 620px;
+  font-size: 18px;
+  text-align: justify;
+  margin-top: -430px;
+}
+.unphoto {
+  height: 400px;
+  margin-left: 250px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  float: left;
+}
+footer {
+  background-color: rgba(12, 106, 128, 0.99);
+  height: 100px;
+  margin-top: 230px;
+  margin-left: -7px;
+  margin-right: -10px;
+}
+.iletisim {
+  color: white;
+}
