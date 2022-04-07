@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <body style="background-color:rgb(94, 202, 202);">
+    
+    </body>
+<b>hisap makinasi</b> 
+<title>hisap makinasi</title>
+
+
+<script>
+      function add() {
+        var y = parseInt(document.getElementById("txt1").value);
+        var z = parseInt(document.getElementById("txt2").value);
+        var x = y + z;
+        document.getElementById("result").innerHTML = x;
+      }
+      function minus() {
+        var y = parseInt(document.getElementById("txt1").value);
+        var z = parseInt(document.getElementById("txt2").value);
+        var x = y - z;
+        document.getElementById("result").innerHTML = x;
+      }
+      function multiply() {
+        var y = parseInt(document.getElementById("txt1").value);
+        var z = parseInt(document.getElementById("txt2").value);
+        var x = y * z;
+        document.getElementById("result").innerHTML = x;
+      }
+      function divide() {
+        var y = parseInt(document.getElementById("txt1").value);
+        var z = parseInt(document.getElementById("txt2").value);
+        var x = y / z;
+        document.getElementById("result").innerHTML = x;
+      }
+    </script>
+
+</head>
+<body>
+    
+    <br />
+    <input type="number" id="txt1" name="text1" />
+    <input type="number" id="txt2" name="text2" />
+    <button onclick="add()">+</button>
+    <button onclick="minus()">-</button>
+    <button onclick="multiply()">*</button>
+    <button onclick="divide()">/</button>
+    <br />
+    <output style="color: white" id="result"></output>
+</body>
+
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-color:lightblue;
+    }
+</style>
+
+</head>
+<body>
+    
+
+    <label>sayi:</label>
+    <input id="yer1" type="text" />
+    <button onclick="ekleme()">ekleme</button>
+    <button onclick="cikartma()">cikartma</button>
+    <button onclick="tekrarlariSil()">tekrarlari sil</button>
+    <br>
+    <br>
+    <p id="yer2"></p>
+    <br>
+
+    <script>
+        const dizi = [];
+        function ekleme(){
+            var eleman = parseInt(document.getElementById("yer1").value);
+            dizi.push(eleman);
+            document.getElementById("yer2").innerHTML = dizi.join(" ");
+
+        }
+        function cikartma(){
+            dizi.pop();
+            document.getElementById("yer2").innerHTML = dizi.join(" ");
+
+        }        
+        function tekrarlariSil(){
+            console.log(dizi);
+            for(var i=0;i<dizi.length;i++){
+                for(var j=i+1;j<dizi.length;j++){
+                    if(dizi[i]==dizi[j]){
+						
+                        dizi.splice(j,1); 
+                        j--;
+                        
+					}
+				}
+			}
+            document.getElementById("yer2").innerHTML = dizi.join(" ");
+        
+        }
+    </script>
+
+</body>
+
+
+
+
+
+</html>
