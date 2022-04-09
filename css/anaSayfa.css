@@ -12,11 +12,14 @@ body{ background-image: url(/media/new_1.jpg);
     padding: 0;
     }
 .navbar{
-        background-color:rgba(18, 66, 82, 0.747);
+        background-color:rgb(18, 66, 82);
         font-size: 17px;  
-        overflow: hidden;     
-        margin: -9px;   
+        overflow: hidden;   
+        margin-top: -42px;
         height: 51px;
+        position: fixed;  
+        width: 100%;
+
     }
 a{
     color: white;
@@ -31,6 +34,12 @@ a{
     width: 55%;
     text-transform: uppercase;
     margin-top: -6px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar  .anaSayfa{
+    border-bottom: 2px solid black;
+    color: black;
+
 }
 .navbar .links{
     float: left;
@@ -40,10 +49,13 @@ a{
 .baslik{text-align: center;
         font-size: 40px; 
         color: lightgray;
-        margin-bottom: -100px;
+        padding-top: 80px;
+        margin-bottom: -150px;
     }
 .navbar a{
     text-decoration: none;
+    border-bottom: 2px solid transparent;
+
 }
 ul{
 
@@ -52,12 +64,16 @@ ul{
     margin: 0;
 }
 
+.navbar .links a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
 .navbar .links li{
     display: inline-block;
     padding:  20px;
-
 }
-.aboutMe{
-margin-top: 565px;
 
+.aboutMe{
+    margin-top: 565px;
 }
