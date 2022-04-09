@@ -1,0 +1,63 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body{ background-image: url(/media/new_1.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    }
+.navbar{
+        background-color:rgba(18, 66, 82, 0.747);
+        font-size: 17px;  
+        overflow: hidden;     
+        margin: -9px;   
+        height: 51px;
+    }
+a{
+    color: white;
+}
+.continer{
+    width: 1200px;
+    margin: auto;
+
+}
+.navbar .projectName{
+    float: left;
+    width: 55%;
+    text-transform: uppercase;
+    margin-top: -6px;
+}
+.navbar .links{
+    float: left;
+    width: 45%;
+    margin-top: -5px;
+}
+.baslik{text-align: center;
+        font-size: 40px; 
+        color: lightgray;
+        margin-bottom: -100px;
+    }
+.navbar a{
+    text-decoration: none;
+}
+ul{
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .links li{
+    display: inline-block;
+    padding:  20px;
+
+}
+.aboutMe{
+margin-top: 565px;
+
+}

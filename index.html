@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <style>
-        body{ background-image: url(/media/new_1.jpg);
-        background-repeat: no-repeat;  
-        }
-      .iletsim{ text-align: center    
-      }
-      .hakinda{text-align:right;    }
-      .baslik{text-align: center;
-              font-size: 49px; 
-              color: lightgray;
-      }
-
-      </style>
+      <link rel="stylesheet" href="/css/anaSayfa.css">
       <title>MY PROFILE </title>
     </head>
 
   <body>
-    <h1 class="baslik">MY PROFILE PAGE</h1>
-    <a
-    style="position: absolute;color: white; left: 20px;"
-    href="index.html"
-    target="_blank"
-    title="Anasayfa dönmek için tılkla"
-    >ANASAYFA</a>      
-    <a 
-          class="iletisim" 
-          href="iletişim.html"   
-          style="color: white;
-          position: absolute;
-           left: 370px; ;" 
-          target="_blank"
+  
+    <nav class="navbar">
+      <div class="continer">
+      <div class="projectName">
+        <h2>profile page</h2>
+      </div>
 
-          title="biligileriniz göndermek için linke tıklayın">
-          İLETİŞİM
-        </a>
-        <a
-        style="position: absolute;color: white; left: 620px;"
-        href="/aboutme.html"
-        target="_blank"
-        title="bilgilerim öğrenmek istersin tılkla"
-        >HAKIMDA</a>
-       
+        <ul class="links">
+          <li>
+            <a
+              href="index.html"
+              title="Anasayfa dönmek için tılkla"
+              >Anasayfa</a>
+          </li>
           
+          <li>
+            <a 
+              href="#iletişim"  
+              title="biligileriniz göndermek için linke tıklayın">
+              İletişim</a>
+          </li>
+          
+          <li>
+            <a
+              href="#aboutMe"
+              title="bilgilerim öğrenmek istersin tılkla"
+              >Hakkimda</a>
+          </li>
+          <li>
+            <a
+              href=""
+              target="_blank"
+              title="bilgilerim öğrenmek istersin tılkla"
+              >Projelerim</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <P class="baslik">WELCOME TO MY PROFILE PAGE</P> 
+    <iframe width="100%" height="565px"  scrolling="no"  src="/aboutme.html"  frameborder="0" id="aboutMe" class="aboutMe"></iframe>
+    <iframe width="100%" height="950px"  scrolling="no"  src="/iletişim.html"  frameborder="0" id="iletişim" class="iletişim"></iframe>
+
     
-      </body>
+  </body>
 </html>

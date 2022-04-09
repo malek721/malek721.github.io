@@ -31,3 +31,17 @@ let a = " we love";
 let b = "JS";
 document.write( "\n" +a+" "+b);
 console.log(a, b);
+function fotocopy() {
+    window.print() ;
+}
+
+let mk = "how are you?"
+
+let km = "i'm fine :)"
+
+function step1(){
+    document.getElementById("step_1").innerHTML= mk ;
+}
+function step2(){
+    document.getElementById("step_2").innerHTML= km ;
+}
