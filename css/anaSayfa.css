@@ -36,11 +36,7 @@ a{
     margin-top: -6px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.navbar  .anaSayfa{
-    border-bottom: 2px solid black;
-    color: black;
 
-}
 .navbar .links{
     float: left;
     width: 45%;
