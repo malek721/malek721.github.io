@@ -64,10 +64,10 @@ ul{
     color: black;
     border-bottom: 2px solid black;
 }
-.navbar .links a:visited{
+/*.navbar .links a:visited{
     color: black;
     border-bottom: 2px solid black;
-}
+}*/
 
 .navbar .links li{
     display: inline-block;
