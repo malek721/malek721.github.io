@@ -60,7 +60,11 @@ ul{
     margin: 0;
 }
 
-.navbar .links a:hover{
+.navbar .links a:hover , :active{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.navbar .links a:visited{
     color: black;
     border-bottom: 2px solid black;
 }

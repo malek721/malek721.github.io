@@ -20,9 +20,9 @@ h1 {
 }
 .lnk {
   color: black;
-  text-align: left;
+  text-decoration: none;
   margin-top: -10px;
-  font-size: large;
+  margin-left: -150px;
 }
 .unvideo {
   margin-top: 10px;
@@ -30,7 +30,8 @@ h1 {
   margin-left: 670px;
 }
 .loc {
-  margin-bottom: -220px;
+  margin-bottom: -210px;
+  padding-left: 27%;
 }
 .baslik {
   text-align: center;

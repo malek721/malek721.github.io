@@ -11,7 +11,9 @@ console.log(typeof [50,79.14]); //arrey
 console.log(typeof {name: "malik",age: "20",country: "sy"});//object
 console.log(typeof true); //boolean
 console.log(typeof null); 
-
+let x = 2 ;
+let z = Math.pow(x,2);    //z=x**2=4
+document.getElementById("demo").innerHTML = z ;
 var user = "muhamed",
     age = "20";
 console.log(user);
