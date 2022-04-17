@@ -1,7 +1,7 @@
 html {
   background-image: url(/media/new_1.jpg);
   background-attachment: fixed;
-  font-family: "Courier New", Courier, monospace;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(18, 18, 19);
   background-repeat: no-repeat;
   background-size: cover;
