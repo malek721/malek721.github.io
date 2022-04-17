@@ -82,3 +82,20 @@ h3{
   font-size: 27px;
   color: antiquewhite;
 }
+
+footer{
+  background-color: #203e47c2;
+  color: aliceblue;
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin-left: -10px;
+  margin-bottom: -15px;
+}
+
+
+.social_media{
+  float: right;
+  margin-top: -120px;
+  margin-right: 150px;
+}
