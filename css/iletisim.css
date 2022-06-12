@@ -42,9 +42,11 @@ color: aliceblue;
   width: 15vw;
   padding-bottom: 0.3vw;
 }
+#area{
+  margin-left: 3.5vw;
 
+}
 textarea{
-  margin-left: 3.6vw;
   margin-top: 0.5vw;
   width: 15vw;
 
@@ -71,10 +73,7 @@ padding-left: 2vw;
   margin-left: 1.3vw;
 
 }
-h2{
-  color: aliceblue;
-  padding-left: 2.6vw;
-}
+
 h3{
   margin-left: 24vw;
   font-size: 2.5vw;
@@ -90,13 +89,12 @@ footer{
   margin-left: -1vw;
   margin-bottom: -1.3vw;
 }
-.cntact{
-  margin-top: -2vw;
-}
+
 
 .social_media{
   float: right;
   margin-right: 12vw;
+  margin-top: -8vw;
 }
 img{
   padding: 0vw 0.2vw;

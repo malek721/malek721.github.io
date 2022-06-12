@@ -40,13 +40,13 @@
 
 .my_photo {
   float: right;
-  margin-top: -3vw;
-  margin-right: 6vw;
   width: 25vw;
-margin-bottom: 7vw;
   border-radius: 4vw;
   border: solid rgba(54, 51, 71, 0.603);
+  margin-top: -35vw;
+  margin-right: 3vw;
 }
+
 
 .tab{
   margin-top: 4vw;
@@ -61,7 +61,7 @@ margin-bottom: 7vw;
   "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 td{
-  color: white;
+  color: rgb(31, 30, 30);
   text-align: center;
   font-size: 1.1vw;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
