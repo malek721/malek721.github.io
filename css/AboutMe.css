@@ -1,5 +1,5 @@
 html {
-  background-image: url(/media/new_1.jpg);
+  background-image: url(/media/background.jpg);
   scroll-behavior: smooth;
   background-size: cover;
   color: white;
@@ -34,9 +34,9 @@ p{
 }
 .my_photo {
   float: right;
-  margin-top: -40vw;
+  margin-top: -50vw;
   margin-right: 6vw;
-  width: 22vw;
+  width: 25vw;
 margin-bottom: 7vw;
   border-radius: 4vw;
   border: solid rgba(54, 51, 71, 0.603);
@@ -45,13 +45,14 @@ margin-bottom: 7vw;
 .tab{
   margin-top: 4vw;
   border-style: groove;
-  border-width: 2px;
+  border-width: 0.1vw;
   background-color: lightblue;
-  margin-left: 120px;
-  width: 1050px;
-  height: 300px;
+  margin-left: 10vw;
+  width: 72vw;
+  height: 20vw;
   color: black;
 }
 td{
   text-align: center;
+  font-size: 1.1vw;
 }
