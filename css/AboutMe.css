@@ -6,42 +6,44 @@ html {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-h1{
-  margin-left: 600px; 
-  margin-top: 40px; 
-  border-bottom: 2px solid white;
+.bas{
+  width: 16vw;
+  margin-left: 41vw; 
+  margin-top: 2vw; 
+  font-size: 3vw;
+  border-bottom: 0.2vw solid white;
   display: inline-block;
 }
 p{
-  width: 750px;
-  font-size: 20px;
+  width: 55vw;
+  font-size: 1.45vw;
   text-align: justify;
 }
 .inu_hakinda{
   color:white;
   position: absolute; 
-  margin-top: -47px;
-  padding-left: 670px;
-  font-size: 17px;
+  margin-top: -3.5vw;
+  padding-left: 48vw;
+  font-size: 1.35vw;
   text-decoration: none;
 }
 #buton{
   color: black;
-  border: 1px solid black ;
+  border: 0.1vw solid black ;
   background-color: rgb(95, 141, 156);
 }
 .my_photo {
   float: right;
-  margin-top: -420px;
-  margin-right: 80px;
-  width: 300px;
-margin-bottom: 100px;
-  border-radius: 50px;
+  margin-top: -40vw;
+  margin-right: 6vw;
+  width: 22vw;
+margin-bottom: 7vw;
+  border-radius: 4vw;
   border: solid rgba(54, 51, 71, 0.603);
 }
 
 .tab{
-  margin-top: 40px;
+  margin-top: 4vw;
   border-style: groove;
   border-width: 2px;
   background-color: lightblue;
