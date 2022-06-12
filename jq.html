@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+html{
+    scroll-behavior: smooth;
+}
+.blue{
+            font-size: 30px;
+            font-family: serif;
+            
+        }
+
+
+    </style>
+    <script>
+        $(document).ready(function(){
+            $('.bb').click(function(){
+                $('p').toggleClass("blue");
+            })
+
+
+
+
+            /*            $('.bb').click(function(){
+                $('.dd').animate({
+                    left: "200px",
+                    height: "190px",
+
+                })
+                $('.dd').css({
+                    fontFamily: "arial",
+                    fontSize: "30px",
+                    transform: 'rotate(360deg)',
+                    transition: "3s"
+                })
+            })
+            $('#inp').focus(function(){
+                $(this).css({
+                    backgroundColor: "blue"
+                })
+            })
+            $('#inp').blur(function(){
+                $(this).css({
+                    backgroundColor: "yellow"
+                })
+            })
+
+            $('#pu').focus(function(){
+                $('.pp').slideDown();
+            })
+            $('#pu').blur(function(){
+                $('.pp').slideUp();
+            })
+*/
+
+            /*  $('.btn').click(function(){
+                $('#photo').fadeToggle();
+            })
+
+            $('.btn1').click(function(){
+                $('#photo').toggle();
+            })
+
+            $('.btn2').click(function(){
+                $('#photo').slideToggle();
+            })*/
+            
+        });
+    </script>
+    
+</head>
+<body>
+
+        <p>hello world</p>
+    <button class="bb">animate</button>
+    <div class="dd" style="position: relative;background-color: rgb(75, 69, 69);width: 150px;height: 170px;">lets learn jquery</div>
+
+    <label for="inp"> text</label>
+    <input type="text" name="" id="inp" >
+  <!-- <button class="btn">fadeToggle</button>
+    <button class="btn1">Toggle</button>
+    <button class="btn2">sildeToggle</button>
+
+    <img src="/media/me (2).jpg" id="photo" alt="" width="250px">
+
+    <p id="para">0merhaba dunyaaa!! </p>
+    <p id="para1">1meeerhaba dunya!! </p>
+    <p id="para2">2merhhhaba dunya!! </p>
+
+    <label for=""> email</label>
+    <input type="email" name="" id="pu">
+<p class="pp" style="display: none;">write your email.</p> -->
+
+    
+</body>
+</html>

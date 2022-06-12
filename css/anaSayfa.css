@@ -1,11 +1,16 @@
 * {
+        scroll-behavior: smooth;
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 
-body{ background-image: url(/media/new_1.jpg);
+body{ 
+    background-image: url(/media/new_1.jpg);
+    background-color: rgb(156, 135, 107);
+
     background-repeat: no-repeat; 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -14,21 +19,28 @@ body{ background-image: url(/media/new_1.jpg);
     padding: 0;
     }
 .navbar{
+    position: fixed;  
+
         background-color:rgb(18, 66, 82);
         font-size: 17px;  
         overflow: hidden;   
-        margin-top: -42px;
+        margin-top: -5px;
         height: 51px;
-        position: fixed;  
         width: 100%;
 
+    }
+    #demo{
+        margin-top: 160px;
+        padding-left: 255px;
+        padding-right: 255px;
     }
 a{
     color: white;
 }
-.continer{
+.contin{
     width: 1200px;
     margin: auto;
+    
 
 }
 .navbar .projectName{
@@ -36,13 +48,17 @@ a{
     width: 55%;
     text-transform: uppercase;
     margin-top: -6px;
+    color: black;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 .navbar .links{
     float: left;
     width: 45%;
     margin-top: -5px;
+
+
 }
 .baslik{
     font-family:Arial, Helvetica, sans-serif;
@@ -57,6 +73,9 @@ a{
 .navbar a{
     text-decoration: none;
     border-bottom: 2px solid transparent;
+    color: white;
+
+
 
 }
 ul{
@@ -79,4 +98,7 @@ ul{
 
 .aboutMe{
     margin-top: 450px;
+}
+.kelime{
+    color: black;
 }
