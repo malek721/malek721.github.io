@@ -2,17 +2,70 @@
 <html>
     <head>
       <link rel="stylesheet" href="/css/anaSayfa.css">
+      <link rel="stylesheet" href="/css/AboutMe.css"> 
+      <link rel="stylesheet" href="/css/iletisim.css">
+
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <script src="/java_s.js"></script>
-
+      <script>
+        $(document).ready(function(){
+          $(".img1").mouseenter(function(){
+            $(this).animate({
+                height: '22vw'
+                
+          });
+          
+            });
+            $(".img1").mouseleave(function(){
+            $(this).animate({
+                height: '20vw'
+                
+          });
+          
+            });
+            
+            $(".img2").mouseenter(function(){
+            $(this).animate({
+                height: '21vw'
+                
+          });
+            });
+            $(".img2").mouseleave(function(){
+            $(this).animate({
+                height: '18vw'
+                
+          });
+          
+            });
+           
+            $(".img3").mouseenter(function(){
+            $(this).animate({
+                width: '21vw'
+                
+          });
+            });
+            $(".img3").mouseleave(function(){
+            $(this).animate({
+                width: '18vw'
+                
+          });
+          
+            });
+            
+        });
+        </script>
       
       <title>MY PROFILE </title>
       <style>
+body{
+    background-color: rgba(0, 11, 34, 0.829);
 
+}
       </style>
     </head>
 
@@ -35,7 +88,7 @@
           
           <li>
             <a
-              href="#aboutMe"
+              href="#hakkimda"
               title="bilgilerim öğrenmek istersin tılkla"
               >Hakkimda</a>
           </li>
@@ -47,7 +100,7 @@
           </li>
           <li>
             <a 
-              href="#iletişim"  
+              href="#iletisim"  
               title="biligileriniz göndermek için linke tıklayın">
               İletişim</a>
           </li>
@@ -89,10 +142,201 @@
   </div>
 </div>
     
-    <iframe  width="100%" height="970px"  scrolling="no"  src="/aboutme.html"  frameborder="0" id="aboutMe" class="aboutMe"></iframe>
+   <!-- <iframe  width="100%" height="970px"  scrolling="no"  src="/aboutme.html"  frameborder="0" id="aboutMe" class="aboutMe"></iframe>
     <iframe width="100%" height="670px"  scrolling="no"  src="/projeler.html"  frameborder="0" id="projeler" class="projeler"></iframe>
-    <iframe width="100%" height="1320px"  scrolling="no"  src="/iletişim.html"  frameborder="0" id="iletişim" class="iletişim"></iframe>
+    <iframe width="100%" height="1320px"  scrolling="no"  src="/iletişim.html"  frameborder="0" id="iletişim" class="iletişim"></iframe> -->
+    <p class="bas" id="hakkimda">HAKKIMDA</p>
+        <p class="metin1">– Benim adım Muhammed Malik ELhıdır,Ben Suriye'de Şam şehirinden 02/01/2002 doğdum,Şu an Türkiye Malatya ilinde kalıyorum,İmam Hatip okulundan 92% not ortaması ile 2020'de mezun oldum. </p>
+        
+        <br>
+        <p class="hak">– Ben İnönü Üniversitesinde yazılım mühendisliği fakültesinde 1.sınıf öğrenciyim, Yös sınavın aracıyle bu fakülteyi kazandım  94% puanla INÜ Yös sınavında;Okduğum üniversites hakkında bilgi almak için tıklayınız :</p>
+        <a class="inu_hakinda"
+            href="/İNÜ_Hakkında.html"
+            target="_blank" 
+            title="inönü üniversitesinin hakında bilgiler bilmek için tıkla">
+            <span id="buton">İNÜ HAKKINDA</span>
+        </a>
+        <br>
+        <p class="hak">– Bilgisayar dünyası hakkında bilgilerim var,ICDL kursu ve Microsoft Office kusları aldım;Şimdi basit bir web tasarimi  bilgilerim var,ve bu bilgileri sürekli geliştirmeyi çalişiyorum. </p>
+        <br>
+        <p style="font-size: 2vw ;color: rgb(139, 115, 115);"> Beceriler ve yetenekler hakkında : </p>
+        <p class="hak">– Ben iyi bir satranç oyuncusuyum,liselerin arasında satranç şapiyonası'nda katıldım üçüncü oldum ve bronz madalya aldım.</p>
+        <p class="hak">- spor alanında futbolda iyiyim,yüzmeyi de seviyorum ve her gün sporsaluna gidiyorum.</p>
+        <p class="hak">- çalişmalarıma ek olarak bilgisayar ve Programlama en sevdiğim hobim ve hep pratık yapıyorum ve her zaman geliştirmeye çalişiyorum</p>
+        <br>
+        
+        <img src="/media/me (2).jpg" class="my_photo" >
+        <br><br>
+        <div class="container">
+            <p class="hak">– Üniversitede  haftalık derslerim programı :</p>
+        <table class="tab" border="1" >
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Pazartesi</th>
+                    <th>Sali</th>
+                    <th>Çarsamba</th>
+                    <th>Persembe</th>
+                    <th >Cuma </th>
+                </tr>
+            </thead>
+            <tbody >
+        <tr>
+            <td>09.10-09.55</td>
+            <td>Matematik II</td>
+            <td>Programlamaya Giriş II</td>
+            <td>Web Programlama</td>
+            <td>Programlamaya Giriş II</td>
+            <td>Matematik II</td>
+        </tr>
+        <tr>
+            <td>10.05-10.50</td>
+            <td>Matematik II</td>
+            <td>Programlamaya Giriş II</td>
+            <td>Web Programlama</td>
+            <td>Programlamaya Giriş II</td>
+            <td>Matematik II</td>
+        </tr>
+        <tr>
+            <td>11.00-11.45</td>
+            <td></td>
+            <td>Programlamaya Giriş II</td>
+            <td></td>
+            <td></td>
+            <td ></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>13.30-14.15</td>
+            <td>Ayrık Yapılar</td>
+            <td ></td>
+            <td>Yabancı Dil II</td>
+            <td>Web Programlama</td>
+            <td>Türk Dili II</td>
+        </tr> 
+        <tr>
+            <td>14.25-15.05</td>
+            <td>Ayrık Yapılar</td>
+            <td ></td>
+            <td>Yabancı Dil II</td>
+            <td> Web Programlama</td>
+            <td >Türk Dili II</td>
+        </tr>
+        <tr>
+            <td>15.15-16.00</td>
+            <td>Ayrık Yapılar</td>
+            <td>Atatürk İlkeleri ve İnkılap Tarihi II</td>
+            <td>Yabancı Dil II</td>
+            <td> liner cebir</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>16.10-16.55</td>
+            <td></td>
+            <td>Atatürk İlkeleri ve İnkılap Tarihi II</td>
+            <td></td>
+            <td>liner cebir</td>
+            <td></td>
+        </tr>
+            </tbody>
+        </table>
+    </div>
 
+    <div id="projeler" style="margin-left: 42vw;margin-top: vw;font-size: 4vw;width:fit-content ;color: aliceblue;border-bottom: solid 0.4vw rgb(55, 57, 71);">JS Projeleri</div>
+    <div style="margin-top: 11vw">
+    <a href="/push_pop.html" target="_blank"><img  class="img1" src="/media/push.png" alt="" style="height: 20vw;padding-left: 3vw;"></a>
+    <a href="/smileface.html" target="_blank"><img class="img3" src="/media/smiley-face.png" alt="" style="width: 18vw; float: right;padding-left:10vw ;margin-right: 4vw;"> </a>
+
+    <a href="/hisapmakinasi.html"target="_blank "><img class="img2" src="/media/calculater.png" alt="" style="height: 18vw; float: right;padding-right: 10vw;"></a>
+</div>
+  
+<p class="bas" id="iletisim"> İLETİŞİM</p>
+
+  
+
+<form>
+    <div style="margin-left: 4vw;">
+        <h2 style="font-size: 2.1vw;">bilgilerinizi giriniz:</h2> 
+
+        <div>
+        <label class="labl1" > user name:</label>
+        <br>
+        <input type="text" 
+            class="inp1"
+            required
+            autofocus
+            placeholder="Ad Soyad"
+            name="user" 
+        >
+    </div>
+<br>
+    <div>
+        <label class="labl2">email:</label>
+        <br>
+        <input class="inp2"
+            type="email" 
+            required
+            placeholder="E-posta" 
+            name="email"
+        >
+    </div>
+<br>
+    <div>
+        <label class="labl3">number:</label>
+        <br>
+        <input 
+            type="tel" 
+            class="inp3" 
+            required
+            placeholder="Telefon No" 
+            name="number"
+        >
+    </div>
+    <br>
+    <label for="area" class="labl4">Object:</label>
+    <br>
+    <textarea id="area" cols="22" rows="8" placeholder= "Açıklama"></textarea>
+    </div>
+    <hr>
+
+    <div style="margin-left: 7vw; font-size: 1.1vw;" >
+        <input class="button"
+            type="submit"
+            value="Gönder" 
+            >
+        <input class="button"
+            type="reset"
+            value="Sil"
+        >
+    </div>
+</form>
+<h3>MY LOCATION:</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.279883890075!2d38.323841071818386!3d38.34621527381828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x407636c46294c1b5%3A0x916280fb370f3484!2sEnsar%20Vakf%C4%B1!5e0!3m2!1sar!2str!4v1647458976135!5m2!1sar!2str"   style="border:0;margin-left: 25%;margin-bottom: 3.4vw;width: 45vw ; height: 27vw" allowfullscreen="" loading="lazy"></iframe>
+<footer>
+    <div class="cntact" >
+        <p style="font-size: 2vw;">Contact Us:</p> 
+        <img src="/media/email_icon.png" alt="" style="width: 1.3vw;">
+        <span style="font-size: 1.1vw;"> malekco721@gmail.com</span> <br> 
+        <img src="/media/smartphone-call.png" alt="" style="width: 1.3vw;">
+
+        <span style="font-size: 1.1vw;"> phone number: +905558777951.</span>  <br> 
+        <i class="glyphicon glyphicon-user"></i>
+<img src="/media/adress_icon.png" alt="" style="width: 1.3vw;">
+        <span style="font-size: 1vw;"> adress: Cirikpınar, Özel Ensar Vakfı Malatya YüksekÖğrenim <br>    Erkek Öğrenci Yurdu, Altunkaynak  Malatya/Türkiye.</span>
+    </div>
+
+
+<div class="social_media">
+<p style="font-size: 1.5vw; color:rgba(220, 236, 236, 0.788);">My social media accunts:</p>
+<a href="https://wa.me/905558777951" target="_blank"> <img src="/media/whatsapp.png" alt="" style="width: 3.5vw;"> </a>
+<a href="https://www.facebook.com/malek.alkhder.96" target="_blank" > <img src="/media/107175_circle_facebook_icon.png" alt="" style="width: 3.5vw;"> </a>
+<a href="https://twitter.com/Malek62019594?t=ZPfU8pS0w60jLMVYzKBJnw&s=09" target="_blank"> <img src="/media/twitter_icon.png" alt="" style="width: 3.5vw;"> </a>
+<a href="https://instagram.com/malek_alkhder?igshid=YmMyMTA2M2Y=" target="_blank"> <img src="/media/2142569_circle_colored_gradient_instagram_media_icon.png" alt="" style="width: 3.5vw;"> </a>
+
+</div>
+
+    
+</footer>
     
   </body>
 </html>
