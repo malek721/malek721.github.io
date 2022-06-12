@@ -1,14 +1,9 @@
-html {
 
-   background-color: rgba(0, 11, 34, 0.829);
-  scroll-behavior: smooth;
-  background-size: cover;
-  
-}
 .bas{
-  width: 16vw;
+  width: 23vw;
   margin-left: 41vw; 
-  margin-top: 20vw; 
+  margin-top: 15vw;
+  margin-bottom: 14vw; 
   color: white;
   font-size: 3vw;
   border-bottom: 0.2vw solid white;
@@ -37,6 +32,7 @@ html {
 #buton{
   color: black;
   border: 0.1vw solid black ;
+  margin-bottom: -1vw;
   background-color: rgb(95, 141, 156);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
   "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -44,7 +40,7 @@ html {
 
 .my_photo {
   float: right;
-  margin-top: -50vw;
+  margin-top: -3vw;
   margin-right: 6vw;
   width: 25vw;
 margin-bottom: 7vw;

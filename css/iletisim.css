@@ -1,11 +1,4 @@
-html {
-  background-color: rgba(0, 11, 34, 0.829);
-  background-attachment: fixed;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(18, 18, 19);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .bas {
 margin-left: 40vw;
 color: aliceblue;
@@ -92,7 +85,6 @@ footer{
   background-color: #203e47c2;
   color: aliceblue;
   width: 100%;
-  height: 9vw;
   padding: 1vw;
   padding-bottom: 2.7vw;
   margin-left: -1vw;
@@ -104,7 +96,6 @@ footer{
 
 .social_media{
   float: right;
-  margin-top: -12vw;
   margin-right: 12vw;
 }
 img{
