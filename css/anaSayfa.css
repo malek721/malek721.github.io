@@ -4,16 +4,13 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
 }
 
 
 body{ 
-    background-image: url(/media/background.jpg);
-    background-color: rgb(156, 135, 107);
-
-    background-repeat: no-repeat; 
+    background-color: rgba(0, 11, 34, 0.829);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
     background-size: cover;
     margin: 0;
     padding: 0;

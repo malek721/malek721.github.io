@@ -1,5 +1,5 @@
 html {
-background-image: url(/media/background.jpg);  
+  background-color: rgba(0, 11, 34, 0.829);
   background-attachment: fixed;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(18, 18, 19);

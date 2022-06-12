@@ -1,5 +1,6 @@
 html {
-  background-image: url(/media/background.jpg);
+
+   background-color: rgba(0, 11, 34, 0.829);
   scroll-behavior: smooth;
   background-size: cover;
   color: white;
