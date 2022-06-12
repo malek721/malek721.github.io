@@ -19,23 +19,23 @@ body{
     position: fixed;  
 
         background-color:rgb(18, 66, 82);
-        font-size: 17px;  
+        font-size: 1.3vw;  
         overflow: hidden;   
-        margin-top: -5px;
-        height: 51px;
+        margin-top: -0.2vw;
+        height: 4vw;
         width: 100%;
 
     }
     #demo{
         margin-top: 160px;
-        padding-left: 255px;
-        padding-right: 255px;
+        padding-left: 35vw;
+        padding-right: 35vw;
     }
 a{
     color: white;
 }
 .contin{
-    width: 1200px;
+    width: 82vw;
     margin: auto;
     
 
@@ -44,7 +44,7 @@ a{
     float: left;
     width: 55%;
     text-transform: uppercase;
-    margin-top: -6px;
+    margin-top: -0.5vw;
     color: black;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -53,27 +53,16 @@ a{
 .navbar .links{
     float: left;
     width: 45%;
-    margin-top: -5px;
+    margin-top: -0.3vw;
 
 
 }
-.baslik{
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 40px; 
-        color: lightgray;
-        padding-top: 180px;
-        margin-bottom: -100px;
-    }
+
 
 .navbar a{
     text-decoration: none;
     border-bottom: 2px solid transparent;
     color: white;
-
-
-
 }
 ul{
 
@@ -84,13 +73,13 @@ ul{
 
 .navbar .links a:hover , :active{
     color: black;
-    border-bottom: 2px solid black;
+    border-bottom: 0.2vw solid black;
 }
 
 
 .navbar .links li{
     display: inline-block;
-    padding:  20px;
+    padding:  1.5vw;
 }
 
 .aboutMe{
