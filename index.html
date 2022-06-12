@@ -58,6 +58,23 @@
             });
             
         });
+
+        $(document).ready(function(){
+    let $table =$("#table > tbody");
+    $.getJSON("new.json", function(data){
+        $.each(data, function(index,value){
+            var row= `<tr>
+            <td>${value.no}</td>
+            <td>${value.adi}</td>
+            <td>${value.vize}</td>
+            <td>${value.final}</td>
+            <td>${value.ort}</td>
+          </tr>
+            `
+            $table.append(row);
+        });
+    });
+});
         </script>
       
       <title>MY PROFILE </title>
@@ -151,6 +168,7 @@ body{
     
     
     <p class="bas" id="hakkimda">HAKKIMDA</p>
+    <div style="margin-left: 1vw;">
         <p class="metin1">– Benim adım Muhammed Malik ELhıdır,Ben Suriye'de Şam şehirinden 02/01/2002 doğdum,Şu an Türkiye Malatya ilinde kalıyorum,İmam Hatip okulundan 92% not ortaması ile 2020'de mezun oldum. </p>
         
         <br>
@@ -169,7 +187,7 @@ body{
         <p class="hak">- spor alanında futbolda iyiyim,yüzmeyi de seviyorum ve her gün sporsaluna gidiyorum.</p>
         <p class="hak">- çalişmalarıma ek olarak bilgisayar ve Programlama en sevdiğim hobim ve hep pratık yapıyorum ve her zaman geliştirmeye çalişiyorum</p>
         <br>
-        
+      </div>
         <img src="/media/me (2).jpg" class="my_photo " id="my_photoo" >
         <br><br>
         <h2 style="color:rgb(170, 158, 158);margin-left: 5.5vw;font-size: 2.5vw;margin-bottom: 1vw;"> Becerilerim :</h2>
@@ -210,7 +228,7 @@ body{
   <br>
         <div class="container">
             <p class="hak">– Üniversitede  haftalık derslerim programı :</p>
-        <table class="table table-dark table-bordered ">
+        <table class="table table-dark table-bordered table-responsive">
             <thead>
                 <tr style="font-size: 1.4vw;color: rgb(151, 144, 134);">
                     <th></th>
@@ -283,7 +301,24 @@ body{
         </table>
     </div> 
     <br>
-
+    <br>
+    <div class="container">
+      <table class="table table-responsive table-bordered" id="table">
+        <thead>
+           <tr style="color: white;">
+            <th style="text-align: center;font-size: 1.3vw;">ÖğrenciNo</th>
+            <th style="text-align: center;font-size: 1.3vw;">Ad</th>
+            <th style="text-align: center;font-size: 1.3vw;">Vize</th>
+            <th style="text-align: center;font-size: 1.3vw;">Final</th>
+            <th style="text-align: center;font-size: 1.3vw;">Ortalama</th>
+           </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+  
+    </div>
+   
 
                                               <!--PROJELER-->
     

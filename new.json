@@ -1,0 +1,23 @@
+[
+    { "no": 4064,
+     "adi": "Amr", 
+     "vize": "95", 
+     "final": "98",
+     "ort": "97"
+    },
+    
+    { "no": 4068,
+     "adi": "Muhammed", 
+     "vize": "87", 
+     "final": "94" ,
+     "ort": "93"
+    },
+    
+    { "no": 4032,
+     "adi": "Mustafa", 
+     "vize": "75", 
+     "final": "85",
+     "ort": "82"
+    }
+    
+    ]
